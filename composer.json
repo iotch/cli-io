@@ -1,0 +1,21 @@
+{
+    "name": "iotch/cli-io",
+    "type": "library",
+    "description": "A PHP library to read and write from/to standard input/output",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iotch",
+            "email": "yoch@yoch.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iotch\\CliIO\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
